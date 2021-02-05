@@ -18,7 +18,7 @@ I've just a little think to do to simplifying more it's to not hard code the id 
 xrandr
 ```
 
-**step 2** : replace "DVI-0" the ID of your tablet screen you can find in the list you just got
+**step 2** : replace "DVI-0" by the ID of your tablet screen you can find in the list you just got
 
 for example : HDMI-1, DVI-1...
 
@@ -30,7 +30,7 @@ for example : HDMI-1, DVI-1...
 
 You need to lauch the script at every start up
 
-Tested ?
+### Tested ?
 
 Actually I've just tested on Fedora and will try to test it on ubuntu soon.
 
