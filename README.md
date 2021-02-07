@@ -4,13 +4,15 @@ A script for correct some problems with huion GT 191 graphic tablet under linux
 
 ### A little story
 
-I have a Huion GT 191 I wanted to use on my linux computer but even with de Digimend drivers and other forks I've got 2 problems that I can't solve, my cursor were not calibrated or I needed to mirror screens to use my tablet.
+I have a Huion GT 191 and wanted to use it on my Linux computer but even with the Digimend drivers and other forks, I experimented 2 problems that I couldn't solve, my cursor was not calibrated and I needed to mirror screens to use my tablet. 
 
-After several searches and tries I've found a base to correct the problems on a youtube tutorial and after a little of adaptations and corrections it's work.
+After several searches and tries I've found a base to correct the problems on a youtube tutorial and after some adaptations and corrections it works. 
 
-I've just a little think to do to simplifying more it's to not hard code the id of the tablet.
+The script works but can be improved.
 
 ### How it works ?
+
+#### After the Digimend drivers installation
 
 **step 1** : type that command line
 
@@ -18,9 +20,7 @@ I've just a little think to do to simplifying more it's to not hard code the id 
 xrandr
 ```
 
-**step 2** : replace "DVI-0" by the ID of your tablet screen you can find in the list you just got
-
-for example : HDMI-1, DVI-1...
+**step 2** : replace "DVI-0" by your tablet’s ID you can find it in the list you just got for example : HDMI-1, DVI-1...
 
 **step 3** : Save the script and launch it : 
 
@@ -28,7 +28,7 @@ for example : HDMI-1, DVI-1...
 ./gt191.sh
 ```
 
-You need to lauch the script at every start up
+You need to lauch the script at each start up
 
 ### Tested ?
 
